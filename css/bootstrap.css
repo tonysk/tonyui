@@ -55,6 +55,7 @@ abbr[title] {
 b,
 strong {
   font-weight: bold;
+  font-family: "open_sansbold";
 }
 dfn {
   font-style: italic;
@@ -470,9 +471,10 @@ p {
 }
 .lead {
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 21px;
   font-weight: 200;
   line-height: 1.4;
+  font-family: "open_sanslight";
 }
 @media (min-width: 768px) {
   .lead {

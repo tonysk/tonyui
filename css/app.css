@@ -1,7 +1,9 @@
 body {background: #303030; padding-top: 50px; color: #fff; font:14px "open_sansregular", Helvetica, Arial, sans-serif}
 .line{background: url(../img/img-line.jpg) repeat-x; height: 13px; margin: 10px 0;}
 .bg-b{background:#a0982d; border: 3px solid #7d7a19; padding: 20px; border-radius: 20px; box-shadow: 1px 1px 2px 2px #000;}
+.header-bg .lead {color: #E8E8E8;}
 .header-bg{background: url(../img/img-header-bg.jpg) repeat-x; border-bottom: 5px solid #888; padding: 20px; text-align: center;}
+.maintitle{font-size: 3.2em;}
 
 /* jq word rotator */
 
@@ -87,33 +89,34 @@ body {background: #303030; padding-top: 50px; color: #fff; font:14px "open_sansr
 	overflow: auto;
 	position: relative;
 	touch-action: none;
-	height: 300px;
-	background: #fff;
-	color: #000;
 }
 /* AnySlider can be styled to your liking. This is just example styles */
 .slider {
 	border: 1px dotted #333;
-	height: 250px;
 	margin: 40px auto;
 	padding: 5px;
 	text-align: center;
 	width: 100%;
+	color: #fff;
 }
-
+#slider .clone{ width: 100%;}
+.as-slide-inner{padding: 80px 0px; text-align: center;}
 /* The arrows can of course also be styled to your liking. This is just example styles */
+.as-nav{
+	display: none;
+}
 .as-prev-arrow, .as-next-arrow {
 	background: #fff url(../img/arrows.png) no-repeat;
 	cursor: pointer;
 	filter: alpha(opacity=0);
 	height: 40px;
-	opacity: 0;
 	overflow: hidden;
 	position: absolute;
 	text-indent: 100%;
 	white-space: nowrap;
 	width: 40px;
 	z-index: 1;
+	top: 50%;
 }
 
 .as-prev-arrow {
