@@ -1,0 +1,131 @@
+body {background: #303030; padding-top: 50px; color: #fff; font:14px "open_sansregular", Helvetica, Arial, sans-serif}
+.line{background: url(../img/img-line.jpg) repeat-x; height: 13px; margin: 10px 0;}
+.bg-b{background:#a0982d; border: 3px solid #7d7a19; padding: 20px; border-radius: 20px; box-shadow: 1px 1px 2px 2px #000;}
+.header-bg{background: url(../img/img-header-bg.jpg) repeat-x; border-bottom: 5px solid #888; padding: 20px; text-align: center;}
+
+/* jq word rotator */
+
+@charset "utf-8";
+
+.word{background: #0088cc; width: 200px; display: inline-block; padding: 10px 0;}
+.wordsrotator_words {
+	display: inline-block;
+	position: relative;
+	white-space:nowrap;
+    -webkit-transition: width 1s;
+    -moz-transition: width 1s;
+    -o-transition: width 1s;
+    transition: width 1s;	
+}
+
+.wordsrotator_words .wordsrotator_wordOut, .wordsrotator_words .wordsrotator_wordIn {
+	position: relative;
+	display: inline-block;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: 1s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-ms-animation-duration: 1s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+
+}
+.wordsrotator_words .wordsrotator_wordOut {
+	left: 0;
+	top: 0;
+	position: absolute;
+	display: inline-block;
+	
+}
+.wordsrotator_words .wordsrotator_wordOut span {
+	width: auto;
+	position: relative;
+}
+.wordsrotator_words .wordsrotator_wordIn {
+	opacity: 0;
+}
+
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/OpenSans-Bold-webfont.eot');
+    src: url('../fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/OpenSans-Light-webfont.eot');
+    src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../onts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* jq content rotator */
+#slider {
+	-ms-touch-action: none;
+	overflow: auto;
+	position: relative;
+	touch-action: none;
+	height: 300px;
+	background: #fff;
+	color: #000;
+}
+/* AnySlider can be styled to your liking. This is just example styles */
+.slider {
+	border: 1px dotted #333;
+	height: 250px;
+	margin: 40px auto;
+	padding: 5px;
+	text-align: center;
+	width: 100%;
+}
+
+/* The arrows can of course also be styled to your liking. This is just example styles */
+.as-prev-arrow, .as-next-arrow {
+	background: #fff url(../img/arrows.png) no-repeat;
+	cursor: pointer;
+	filter: alpha(opacity=0);
+	height: 40px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	text-indent: 100%;
+	white-space: nowrap;
+	width: 40px;
+	z-index: 1;
+}
+
+.as-prev-arrow {
+	left: 0;
+}
+
+.as-next-arrow {
+	background-position: -40px 0;
+	right: 0;
+}
+
+.slider:hover .as-prev-arrow, .slider:hover .as-next-arrow {
+	filter: alpha(opacity=1);
+	opacity: 1;
+}
