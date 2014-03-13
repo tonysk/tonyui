@@ -1,6 +1,6 @@
 body {background: #303030; padding-top: 50px; color: #fff; font:14px "open_sansregular", Helvetica, Arial, sans-serif}
-.about-container{background: #053b94; clear: both; padding: 20px 0;}
-.focus-container{background: #abc210; clear: both; padding: 20px 0;}
+.about-container{background: #053b94; clear: both; padding: 20px 0; text-align: center;}
+.focus-container{background: #abc210; clear: both; padding: 20px 0; text-align: center;}
 .skills-container{background: #ce0354; clear: both; padding: 20px 0;}
 .line{background: url(../img/img-line.jpg) repeat-x; height: 13px; margin: 10px 0;}
 .header-bg .lead {color: #E8E8E8;}
@@ -368,4 +368,14 @@ section.timeline .timeline-box h2{ }
 		max-width: 90%;
 	}
 
+}
+
+.progress{height: auto; background: #829404;}
+.progress-bar{padding: 30px; background: #abc210; border: 1px solid #829404; text-shadow: 0 1px 1px #303030;}
+.progress-striped .progress-bar{background-size: 20px 20px;}
+@media (min-width: 1200px){
+	.level{vertical-align: middle; display: table-cell; height: 6em; padding: 0 0 0 20px; text-align: center; font-size: 3em;}
+}
+@media (max-width: 1200px){
+.level{display: none;}
 }
