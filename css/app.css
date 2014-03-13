@@ -11,7 +11,8 @@ body {background: #303030; padding-top: 50px; color: #fff; font:14px "open_sansr
 
 @charset "utf-8";
 
-.word{background: #0088cc; width: 200px; display: inline-block; padding: 10px 0;}
+.word{background: #0088cc; width: 200px; display: inline-block; padding: 10px 0; border-radius: 3px;}
+.word-1{background: #0088cc; width: 120px; display: inline-block; padding: 5px 0; border-radius: 3px;}
 .wordsrotator_words {
 	display: inline-block;
 	position: relative;
