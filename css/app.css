@@ -1,6 +1,8 @@
 body {background: #303030; padding-top: 50px; color: #fff; font:14px "open_sansregular", Helvetica, Arial, sans-serif}
+.about-container{background: #053b94; clear: both; padding: 20px 0;}
+.focus-container{background: #abc210; clear: both; padding: 20px 0;}
+.skills-container{background: #ce0354; clear: both; padding: 20px 0;}
 .line{background: url(../img/img-line.jpg) repeat-x; height: 13px; margin: 10px 0;}
-.bg-b{background:#a0982d; border: 3px solid #7d7a19; padding: 20px; border-radius: 20px; box-shadow: 1px 1px 2px 2px #000;}
 .header-bg .lead {color: #E8E8E8;}
 .header-bg{background: url(../img/img-header-bg.jpg) repeat-x; border-bottom: 5px solid #888; padding: 20px; text-align: center;}
 .maintitle{font-size: 3.2em;}
@@ -135,7 +137,7 @@ body {background: #303030; padding-top: 50px; color: #fff; font:14px "open_sansr
 
 /* contact */
 
-.contact{ background: url(../img/img-contact-bg.jpg) repeat-x; height: 300px; text-align: center; color: #000; padding: 20px;}
+.contact{ background: url(../img/img-contact-bg.jpg) repeat-x; height: 300px; text-align: center; color: #000; padding: 20px; clear: both;}
 
 /* timeline */
 
@@ -144,7 +146,7 @@ section.timeline {
 	margin: 50px 13% 0;
 	position: relative;
 	float: left;
-	padding-bottom: 120px;
+	padding:50px 0 120px;
 }
 section.timeline:after {
 	background: rgb(80,80,80);
