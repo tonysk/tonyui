@@ -380,3 +380,136 @@ section.timeline .timeline-box h2{ }
 @media (max-width: 1200px){
 .level{display: none;}
 }
+
+#abtPic div{height: 130px; overflow: hidden; position: relative;}
+#abtPic img{
+	position:absolute;
+}
+
+/* VIDEO */
+
+#video-container {
+	position: absolute;
+	top: 0;
+	overflow: hidden;
+	display: none;
+	z-index: -9999;
+}
+#video-controls {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 99999;
+	
+	margin: 20px;
+	width: 30px;
+	height: 30px;
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+	
+	opacity: .7;
+	filter: alpha(opacity=70);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	-webkit-transition: opacity .2s ease-in-out;
+	-moz-transition: opacity .2s ease-in-out;
+	-ms-transition: opacity .2s ease-in-out;
+	-o-transition: opacity .2s ease-in-out;
+	transition: opacity .2s ease-in-out;
+}
+#video-controls:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+#ui-video {
+	display: block !important;
+	top: 0px;
+	bottom: 0px;
+	margin: auto;
+	position: absolute !important;
+}
+#ui {
+	background: #000;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	padding: 0;
+}
+@media (max-width: 480px) {
+	#ui {
+		background: #000;
+		background-attachment: fixed;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+	}
+}
+body.ismobile #ui {
+	background-attachment: scroll !important;
+}
+.on-center {
+	position: absolute;
+	z-index: 99999;
+	display: block;
+	width: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	padding: 0;
+	margin: auto;
+	height: 300px;
+	overflow: hidden;
+}
+#center-content{
+	color: #fff;
+}
+#center-content h1{
+	font-size: 4rem;
+	margin: 0;
+}
+
+#center-content #play-button {
+	display: inline-block;
+	width: 92px;
+	height: 92px;
+	background: url(../img/play.png) no-repeat;
+	background-size: 92px 92px;
+	-webkit-transition: background .2s ease-in-out;
+	-moz-transition: background .2s ease-in-out;
+	-ms-transition: background .2s ease-in-out;
+	-o-transition: background .2s ease-in-out;
+	transition: background .2s ease-in-out;
+}
+#center-content #play-button:hover {
+	background: url(../img/play.png) no-repeat;
+	background-size: 92px 92px;
+}
+
+#close-video{
+	background: url('../img/icon-mobile-close.png') no-repeat;
+	width: 27px;
+	height: 25px;
+	display: inline-block;
+}
+.slide-section {
+	background-attachment: fixed;
+	width:100%;
+	height:auto;
+	position: relative;
+	padding: 120px 0 0 0; 
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+@media (max-width: 480px) {
+	.slide-section {
+		padding: 60px 0;
+	}
+}
