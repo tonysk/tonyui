@@ -27,4 +27,8 @@
 					e.preventDefault();
 					scrollToElement('#about');
 				});
+				$('#s-focus').click(function (e) {
+					e.preventDefault();
+					scrollToElement('#focus');
+				});
 		});
