@@ -49,9 +49,10 @@
 	        </div>
 	        <div class="navbar-collapse collapse">
 	          <ul class="nav navbar-nav">
-	            <li class="active"><a href="#">home</a></li>
-	            <li><a href="#about">about</a></li>
-	            <li><a href="#contact">connect</a></li>
+	            <li><a href="#ui" id="s-home">home</a></li>
+	            <li><a href="#about" id="s-about">about</a></li>
+	            <li><a href="#focus" id="s-focus">focus</a></li>
+	            <li><a href="#contact" id="s-contact">connect</a></li>
 	          </ul>
 	        </div>
 	      </div>
@@ -78,7 +79,7 @@
 			</div>
 		</div>
 	    <h1 class="text-center">design is so <span class="word-1"><span id="myWords"></span></span> that's why it is so complicated.</h1>
-		<div class="about-container">
+		<div class="about-container" id="about">
 		    <div class="container">
 			  	<h1>a little bit about <strong>me</strong></h1>
 			  	<p class="lead">i enjoy taking complex problems and turning them into simple and beautiful interface designs. i also love the logic and structure of coding and always strive to write elegant and efficient code, whether it be html, css or jquery.</p>
@@ -87,7 +88,7 @@
 		    	<!--<div class="line"></div>-->
 		    </div>
 		</div>
-		<div class="focus-container">
+		<div class="focus-container" id="focus">
  			<div class="container">
 		    	<div class="row">
 				  	<h1>focus <strong>&</strong> interest</h1>
@@ -247,6 +248,8 @@
 		<script src="js/jquery.scrollorama.js"></script>
 		<!-- for waypoint -->
 		<script src="js/jq-w.js"></script>
+		<!-- for scroll -->
+		<script src="js/jscroll.js"></script>
 		<!-- for sliding effect -->
 		<script src="js/jquery.anyslider.min.js"></script>
 		<script type="text/javascript">
@@ -266,6 +269,7 @@
 				}, function() {
 					$("img", this).stop().animate({top:"0px"},{queue:false,duration:200});
 				});
+				$('#about').ScrollTo();
 		    });
 
 		</script>
