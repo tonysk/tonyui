@@ -37,6 +37,6 @@
 				});
 				$('#s-contact').click(function (e) {
 					e.preventDefault();
-					scrollToElement('#contact', 500, -150);
+					scrollToElement('#contact', 500, -200);
 				});
 		});
