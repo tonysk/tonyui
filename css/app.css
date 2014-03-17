@@ -138,10 +138,11 @@ body {background: #303030; padding-top: 50px; color: #fff; font:1.7em "open_sans
 
 /* contact */
 
-.contact{ background: url(../img/img-contact-bg.jpg) repeat-x; height: 300px; text-align: center; color: #000; padding: 20px; clear: both;}
+.contact{ background: url(../img/img-contact-bg.jpg) repeat-x; height: 300px; text-align: center; color: #000; padding: 20px; clear: both; text-shadow:0 1px 1px #fff;}
 
 /* timeline */
 .time{background: #f5f5f5; display: inline-block;width: 100%; text-shadow:0 1px 1px #fff;}
+.time h1{text-align: center; color:#171717; }
 
 section.timeline {
 	width: 75%;
@@ -625,7 +626,7 @@ body.ismobile #ui {
 	.bar-chart .percent {
 		opacity: .3;
 		position: absolute;
-		bottom: 60px;
+		bottom: 80px;
 		font-size: 3.5rem;
 		width: 100%;
 	}
