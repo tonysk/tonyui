@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-		<title>ui</title>
+		<title>_tony</title>
 	    <meta name="author" content="Tony Sebastian">        
 	    <meta name="description" content="">
 	    <meta name="keywords" content="" />
@@ -19,6 +19,14 @@
 	    <![endif]-->
 	</head>
 	<body id="container">
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "https://connect.facebook.net/en_US/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
 	    <!--<div id="video-container"></div>
 		<div id="video-controls">
 			<span id="close-video"></span>
@@ -46,7 +54,7 @@
 	            <span class="icon-bar"></span> -->
 	            <span class="icon-plus">+</span>
 	          </button>
-	          <a class="navbar-brand" href="#container" id="s-top">tony sebastian</a>
+	          <a class="navbar-brand" href="#container" id="s-top">_tony</a>
 	        </div>
 	        <div class="navbar-collapse collapse">
 	          <ul class="nav navbar-nav">
@@ -63,7 +71,7 @@
 	    	<div class="row">
 			  	<h1 class="maintitle">hello! i'm <strong>tony</strong> </br>i create <strong>awesome</strong> stuffs for the web!</h1>
 			  	<p class="lead">the UI engineer with the passion to code and design of everyday user experiences <strong>come to life</strong>.</p>
-			  	<p class="visible-lg">i enjoy taking complex problems and turning them into simple and beautiful interface designs. </br>i also love the logic and structure of coding and always strive to write elegant and efficient code, whether it be any front-end languages.</p>
+			  	<p class="visible-lg">i enjoy working on complex problems and turning them into simple and beautiful interfaces. </br>i also love the logic and structure of coding and always strive to write elegant and efficient code, whether it be any front-end languages.</p>
 
 				<p class="visible-lg">when i'm not coding or pushing pixels, i will enjoy spending time with my family or play badminton.</p>
 			</div>
@@ -93,7 +101,7 @@
 		<div class="focus-container" id="focus">
  			<div class="container">
 		    	<div class="row">
-				  	<h1>focus <strong>&</strong> interest</h1>
+				  	<h1 class="maintitle">focus <strong>&</strong> interest</h1>
 				  	<div class="progress progress-striped active">
 					  <div class="progress-bar"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
 						<h1><strong>UI</strong></h1>
@@ -131,7 +139,7 @@
 		<div class="skills-container hidden-xs">
  			<div class="container">
 		    	<div class="row">
-				  	<h1>some of my <strong>skills</strong> assets</h1>
+				  	<h1 class="maintitle">some of my <strong>skills</strong> assets</h1>
 				  	<div class="col-md-12">
 				  		<ul class="bar-chart">
 							<li id="aqua" class="aqua p-95" style="visibility: visible; height: 95%; opacity: 1;">
@@ -150,18 +158,19 @@
 								<div class="percent">85<span>%</span></div>
 								<div class="skill">bootstrap</div>
 							</li>
-							<li id="red" class="red p-40" style="visibility: visible; height: 75%; opacity: 1;">
-								<div class="percent">75<span>%</span></div>
+							<li id="red" class="red p-40" style="visibility: visible; height: 80%; opacity: 1;">
+								<div class="percent">80<span>%</span></div>
 								<div class="skill">mobile - </br> adaptive & responsive</div>
 							</li>
-							<li id="red" class="red p-40" style="visibility: visible; height: 70%; opacity: 1;">
+							<li id="yellow" class="yellow p-40" style="visibility: visible; height: 70%; opacity: 1;">
 								<div class="percent">70<span>%</span></div>
-								<div class="skill">cms</div>
+								<div class="skill">dust/nodejs</div>
 							</li>
 							<li id="red" class="red p-40" style="visibility: visible; height: 60%; opacity: 1;">
 								<div class="percent">60<span>%</span></div>
-								<div class="skill">dust/nodejs</div>
+								<div class="skill">cms</div>
 							</li>
+
 						</ul>
 					</div>
 				</div>
@@ -170,7 +179,7 @@
 		</div>	
 		<h1 class="text-center">user interface is <span class="word"><span id="myWords1"></span></span> beautiful and delightful.</h1>
 		<div class="time" id="highlights">
-			<h1>the <strong>highlights</strong> of my life </h1>
+			<h1 class="maintitle">the <strong>highlights</strong> of my life </h1>
 			<section class="timeline">
 				<div class="timeline-body">
 					<div class="timeline-date">
@@ -178,7 +187,6 @@
 					</div>
 					<article class="timeline-box left">
 						<div class="portfolio-item">
-							<img src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-ash3/t1.0-9/p206x206/1958427_865627496786057_1324136011_n.jpg"/>
 							<p>first cry on July 21</p>
 							<p>hometown - kerala, India</p>
 							
@@ -265,6 +273,7 @@
 					</article>
 					<article class="timeline-box right">
 						<div class="portfolio-item">
+							<img src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-ash3/t1.0-9/p206x206/1958427_865627496786057_1324136011_n.jpg"/>
 							<p>i became DAD! </p>
 							<p>father of Lucas Tony</p>
 						</div>
@@ -286,13 +295,26 @@
 			</section>
 		</div>
 	    <div class="contact" id="contact">
-		  	<h1 class="maintitle">connect <strong>me</strong></h1>
+		  	<h1 class="maintitle">say <strong>hi</strong>!</h1>
 		  	<p class="lead">i love connecting with people and talking, so click any link below and say hi. doesn’t matter the topic!</p>
 		  	<ul>
-		  		<li>facebook</li>
-		  		<li>twitter</li>
-		  		<li>linkedin</li>
+		  		<li><a href="">facebook</a></li> | 
+		  		<li><a href="">twitter</a></li> |
+		  		<li><a href="">linkedin</a></li> |
 		  	</ul>
+	    </div>
+	    <div class="like-fb">
+	    	<h1 class="maintitle">awesome <strong>just hit like</strong></h1>
+	    	<div class="container">
+		    	<div class="row">
+		    		<div class="col-md-6">
+		    			 <div class="fb-like" data-href="https://www.facebook.com/tonyuicom" data-width="300" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+		    		</div>
+		    		<div class="col-md-6">
+		    			&copy; 2014 tony sebastian
+		    		</div>
+		    	</div>
+	    	</div>
 	    </div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
@@ -324,8 +346,15 @@
 				}, function() {
 					$("img", this).stop().animate({top:"0px"},{queue:false,duration:200});
 				});
+		        //menu toggle set for this 
+				$(".navbar-collapse").hide();
+				$(".navbar-toggle").click(function() {
+					$(".navbar-collapse").slideToggle(700);
+				});
+				$(".navbar-collapse li").click(function(){
+					$(".navbar-collapse").slideUp(700);
+				});
 		    });
-
 		</script>
 	</body>  
 </html>

@@ -33,7 +33,7 @@
 				});
 				$('#s-highlights').click(function (e) {
 					e.preventDefault();
-					scrollToElement('#highlights', 500, -150);
+					scrollToElement('#highlights', 500, -50);
 				});
 				$('#s-contact').click(function (e) {
 					e.preventDefault();
