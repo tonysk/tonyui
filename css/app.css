@@ -145,8 +145,8 @@ body {background: #303030; padding-top: 50px; color: #fff; font:1.7em "open_sans
 .time h1{text-align: center; color:#171717; }
 
 section.timeline {
-	width: 75%;
-	margin: 50px 13% 0;
+	width: 50%;
+	margin: 50px 25%;
 	position: relative;
 	float: left;
 	padding:50px 0 120px;
@@ -224,13 +224,13 @@ section.timeline .timeline-box {
 	box-shadow: 1px 1px 2px rgba(10, 10, 10, 0.1);
 	border: 1px solid #d7d7d7;
 	border-radius: 4px;
-	margin: 20px 13px 10px 14px;
+	margin: 20px 55px 0px 55px;
 	padding: 0 10px;
 	position: relative;
-	width: 45.7%;
+	width: 40%;
 	float: left;
 	z-index: 1;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	background: #fff;
 	color: #7c8387;
 }
@@ -314,9 +314,15 @@ section.timeline .timeline-box.right:after {
 
 
 
-section.timeline .timeline-box a.thumb-info {
-	float: left;
-	margin-bottom: -5px;
+section.timeline .timeline-box img{
+	display: block;
+	margin:5px auto;
+}
+
+section.timeline .timeline-box p{
+	margin:10px;
+	font-size: .8em;
+	font-family: "open_sanslight";
 }
 
 section.timeline .timeline-box .owl-carousel {

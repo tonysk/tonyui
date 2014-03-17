@@ -19,16 +19,24 @@
 		
 			/* scroll to #navigation */
 				
-				$('#s-home').click(function (e) {
+				$('#s-top').click(function (e) {
 					e.preventDefault();
-					scrollToElement('#ui');
+					scrollToElement('#container', 500, -150);
 				});
 				$('#s-about').click(function (e) {
 					e.preventDefault();
-					scrollToElement('#about');
+					scrollToElement('#about', 500, -150);
 				});
 				$('#s-focus').click(function (e) {
 					e.preventDefault();
-					scrollToElement('#focus');
+					scrollToElement('#focus', 500, -50);
+				});
+				$('#s-highlights').click(function (e) {
+					e.preventDefault();
+					scrollToElement('#highlights', 500, -150);
+				});
+				$('#s-contact').click(function (e) {
+					e.preventDefault();
+					scrollToElement('#contact', 500, -150);
 				});
 		});
