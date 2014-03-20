@@ -141,11 +141,22 @@ body {
     font-style: normal;
 }
 /* jq content rotator */
+.sliderOuter{
+  position: relative;
+}
 #slider {
   -ms-touch-action: none;
   overflow: auto;
   position: relative;
   touch-action: none;
+}
+.iconSwipe{
+  background: url(../img/icon-swipe-left.jpg) no-repeat;
+  width: 35px;
+  height: 42px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
 }
 /* AnySlider can be styled to your liking. This is just example styles */
 .slider {
