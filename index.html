@@ -70,7 +70,7 @@
 	    <div class="header-bg" id="about">
 	    	<div class="row">
 			  	<h1 class="maintitle">hello! i'm <strong>tony</strong> </br>i create <strong>awesome</strong> stuffs for the web!</h1>
-			  	<p class="lead">the UI engineer with the passion to code and design of everyday user experiences <strong>come to life</strong>.</p>
+			  	<p class="lead">the UI engineer with passion to code and design, making everyday user experiences <strong>come to life</strong>.</p>
 			  	<p class="visible-lg">i enjoy working on complex problems and turning them into simple and beautiful interfaces. </br>i also love the logic and structure of coding and always strive to write elegant and efficient code, whether it be any front-end languages.</p>
 
 				<p class="visible-lg">when i'm not coding or pushing pixels, i will enjoy spending time with my family or play badminton.</p>
@@ -85,16 +85,16 @@
 		</div> -->
 		<div id="slider">
 	    	<div>
-				<h1>everything has a user experience</h1>
+				<h1>everything has <span class="visible-xs textPad"></span>a user experience</h1>
 			</div>
 			<div>
-				<h1>great user experiences require great ui engineers</h1>
+				<h1>great user experiences <span class="visible-xs textPad"></span>require great ui engineers</h1>
 			</div>
 			<div>
-				<h1>UX is not UI - read more <a href="http://www.uxisnotui.com/" target="_blank">here</a></h1>
+				<h1>UX is not UI, <span class="visible-xs textPad"></span>read more <a href="http://www.uxisnotui.com/" target="_blank">here</a></h1>
 			</div>
 			<div>
-				<h1>good UX is useful, usable, pleasent</h1>
+				<h1>good UX is <span class="visible-xs textPad"></span>useful, usable, pleasent</h1>
 			</div>
 		</div>
 		<div class="focus-container" id="focus">
@@ -137,7 +137,7 @@
 		    	<!--<div class="line"></div>-->
 		    </div>
 		</div>
-		<h1 class="text-center">design is not just what it <span class="word-1"><span id="myWords"></span></span> like. design is how it works.</h1>
+		<h1 class="text-center hidden-xs">design is not just what it <span class="word-1"><span id="myWords"></span></span> like. design is how it works.</h1>
 
 		<div class="skills-container hidden-xs">
  			<div class="container">
@@ -151,7 +151,7 @@
 							</li>
 							<li id="pink" class="pink  p-90" style="visibility: visible; height: 90%; opacity: 1;">
 								<div class="percent">90<span>%</span></div>
-								<div class="skill">javascript frameworks</div>
+								<div class="skill">javascript lib</div>
 							</li>
 							<li id="yellow" class="yellow p-80" style="visibility: visible; height: 90%; opacity: 1;">
 								<div class="percent">90<span>%</span></div>
@@ -180,7 +180,7 @@
 		    	<!--<div class="line"></div>-->
 		    </div>
 		</div>	
-		<h1 class="text-center">good user interface design is <span class="word"><span id="myWords1"></span></span></h1>
+		<h1 class="text-center">good user interface <span class="visible-xs textPad"></span>design is <span class="word"><span id="myWords1"></span></span></h1>
 		<div class="time" id="highlights">
 			<h1 class="maintitle">the <strong>highlights</strong> of my life </h1>
 			<section class="timeline">
@@ -307,11 +307,19 @@
 					</div>
 					<article class="timeline-box right">
 						<div class="portfolio-item">
+							<div style="background-image:url(img/spot-pic.jpg);"class="bkImage"></div>
 							<p>2nd spot award from PayPal</p>
 							<p>shinning star</p>
 						</div>
 					</article>
 					<article class="timeline-box left">
+						<div class="portfolio-item">
+							<div style="background-image:url(img/badminton-pic.jpg);"class="bkImage"></div>
+							<p>PayPal badminton champion</p>
+							<p>category: men's doubles</p>
+						</div>
+					</article>
+					<article class="timeline-box right">
 						<div class="portfolio-item">
 							<div style="background-image:url(https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-ash3/t1.0-9/p206x206/1958427_865627496786057_1324136011_n.jpg);" class="bkImage"></div>
 							<p>became DAD! </p>
@@ -321,14 +329,14 @@
 					<div class="timeline-date">
 						<h3>2014</h3>
 					</div>
-					<article class="timeline-box right">
+					<article class="timeline-box left">
 						<div class="portfolio-item">
 							<div style="background-image:url(https://scontent-b-nrt.xx.fbcdn.net/hphotos-frc3/l/t1.0-9/p206x206/1743544_865627466786060_336475669_n.jpg);" class="bkImage"></div>
 							<p>Lucas first day out</p>
 							<p>location: river safari, singapore</p>
 						</div>
 					</article>
-					<article class="timeline-box left">
+					<article class="timeline-box right">
 						<div class="portfolio-item">
 							<p>released my website </p>
 							<p>tonyui.com</p>
@@ -391,7 +399,7 @@
 		        });
 		         $("#myWords").wordsrotator({
 		        	speed: 2000,
-		            words: ['looks', 'feels', 'look']
+		            words: ['looks', 'feels', 'looks']
 		        });
 		        $("#slider").AnySlider();
 
