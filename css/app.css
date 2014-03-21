@@ -1,11 +1,53 @@
 body {
   background: #303030;
-  padding-top: 50px;
+  padding-top: 30px;
   color: #fff;
   font: 1.7em "open_sansregular", Helvetica, Arial, sans-serif;
   text-shadow: 0 1px 1px #303030;
+  height: 100%;
+  width: 100%;
 }
+.wrapperbg{
+  background: url(../img/bg-port-bw.jpg) no-repeat;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 660px;
+  width: 100%;
+  position: relative;
+  background-position:50% 50%; 
+}
+.wrapperbg h1{
+  text-align: left;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  width: 100%;
 
+}
+.wrapperbg h1 strong{
+  color:#0088cc;
+  text-shadow: 0 1px 1px #fff;
+}
+@media (min-width: 1200px){
+  .wrapperbg {
+    height: 740px;
+  }
+}
+@media (max-width: 992px){
+  .wrapperbg {
+    height: 580px;
+  }
+  .wrapperbg h1{
+   
+  }
+}
+@media (max-width: 768px) {
+  .wrapperbg {
+    height: 280px;
+  }
+}
 .about-container {
   background: #053b94;
   clear: both;
@@ -37,6 +79,7 @@ body {
   color: #E8E8E8;
 }
 */
+
 .header-bg {
   background: url(../img/img-header-bg.jpg) repeat-x;
   border-bottom: 5px solid #888;
@@ -155,13 +198,13 @@ body {
   width: 35px;
   height: 42px;
   position: absolute;
-  bottom: 20px;
+  bottom: 2px;
   left: 50%;
 }
 /* AnySlider can be styled to your liking. This is just example styles */
 .slider {
   border: 1px dotted #333;
-  margin: 40px auto;
+  margin: 10px auto;
   padding: 5px;
   text-align: center;
   width: 100%;
@@ -173,7 +216,7 @@ body {
 }
 
 .as-slide-inner {
-  padding: 80px 0px;
+  padding: 30px 0px;
   text-align: center;
 }
 /* The arrows can of course also be styled to your liking. This is just example styles */
@@ -191,7 +234,7 @@ body {
   text-indent: 100%;
   white-space: nowrap;
   width: 40px;
-  top: 50%;
+  top: 35%;
 }
 
 .as-prev-arrow {
