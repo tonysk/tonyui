@@ -120,16 +120,7 @@ function preload(arrayOfImages) {
 }
 
 preload([
-    'img/play-sm-hover.png',
-	'img/play-hover.png',
-	'img/back-to-top-hover.png',
-	'img/arrow-down-hover.png',
-	'img/icon-bio-active.png',
-	'img/icon-mail-active.png',
-	'img/icon-down-active.png',
-	'img/icon-hello-mail-white.png',
-	'img/icon-hello-phone-white.png',
-	'img/icon-hello-pin-white.png'
+
 ]);
 
 $(window).load(function() {

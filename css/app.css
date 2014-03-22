@@ -21,11 +21,20 @@ body {
 .wrapperbg h1{
   text-align: left;
   position: absolute;
-  top: 30%;
-  left: 5%;
-  width: 100%;
-
+  top: 28%;
+  left: 10%;
 }
+.wrapperbg .title{
+  position: absolute;
+  right: 20%;
+  bottom: 10%;
+  color:#e6e6e6;
+}
+.wrapperbg .title span{
+  display: block;
+  font-size: .7em;
+}
+
 .wrapperbg h1 strong{
   color:#0088cc;
   text-shadow: 0 1px 1px #000;
@@ -39,13 +48,22 @@ body {
   .wrapperbg {
     height: 580px;
   }
-  .wrapperbg h1{
-   
+  .wrapperbg .title{
+    bottom: 10%;
+    right: 10%;
   }
 }
 @media (max-width: 768px) {
   .wrapperbg {
-    height: 280px;
+    height: 290px;
+  }
+  .wrapperbg .title{
+    bottom: 2%;
+    right: 5%;
+    font-size: .7em;
+  }
+  .wrapperbg h1{
+    left: 5%;
   }
 }
 .about-container {
@@ -529,7 +547,7 @@ section.timeline .timeline-box h2 {
   }
 }
 
-@media (max-width: 479px) {
+@media (max-width: 600px) {
   section.timeline {
     width: auto;
     float: none;
