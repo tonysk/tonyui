@@ -25,7 +25,7 @@
 				});
 				$('#s-about').click(function (e) {
 					e.preventDefault();
-					scrollToElement('#about', 500, -150);
+					scrollToElement('#about', 500, -50);
 				});
 				$('#s-focus').click(function (e) {
 					e.preventDefault();

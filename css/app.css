@@ -28,7 +28,7 @@ body {
 }
 .wrapperbg h1 strong{
   color:#0088cc;
-  text-shadow: 0 1px 1px #fff;
+  text-shadow: 0 1px 1px #000;
 }
 @media (min-width: 1200px){
   .wrapperbg {
@@ -56,7 +56,7 @@ body {
 }
 
 .focus-container {
-  background: #0088cc;
+  background: #000; /* 0088cc*/
   clear: both;
   padding: 20px 0;
   text-align: center;
